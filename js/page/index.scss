@@ -1,0 +1,38 @@
+body {
+    background-color: #f0f0f0 !important;
+}
+.container {
+    clear: both;
+    position: absolute;
+    top: 0px;
+    left: 0px; 
+    right: 0;
+    padding: 20px;
+    min-width: 1200px;
+
+    .line {
+        width: 100%;
+
+        .chart-card {
+            float: left;
+            padding: 20px;
+            width: 70%;
+            border-radius: 10px;
+            background-color: #fff;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+
+        .info-card {
+            float: right;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            width: 28%;
+            display: block;
+            height: 342px;
+            text-align: center;
+
+        }
+    }
+}
